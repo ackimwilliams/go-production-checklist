@@ -11,7 +11,7 @@ If you feel like something is missing, please open an issue or PR.
 - [ ] Implement graceful-shutdown unless your gateway does that for you
 
 ## Code
-- [ ] Use [Dep](https://github.com/golang/dep) to manage your dependencies (and install them on bu
+- [ ] Use [Dep](https://github.com/golang/dep) to manage your dependencies
 - [ ] Configure your logger to output structured machine-readable logs, to be processed later (e.g. with ELK)
 - [ ] Configure a timeout for all `http.Client`s (the default client has none)
 - [ ] Close all `ReadClosers` (e.g. `http.Client#Do` returns a body that has to be closed manually)
